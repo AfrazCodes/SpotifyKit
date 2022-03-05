@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Spotify-Kit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Spotify-Kit.'
+  s.version          = '0.2.0'
+  s.summary          = 'iOS framework for spotify apis.'
   s.description      = <<-DESC
-SpotifyKit for iOS and macOS.
+SpotifyKit for iOS and macOS let you authenticate and interact with Spotify apis.
                        DESC
   s.homepage         = 'https://github.com/AfrazCodes/SpotifyKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
