@@ -33,6 +33,7 @@
 		8311B04E27D41B82008A255D /* SpotifyAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311B03827D41B82008A255D /* SpotifyAuthManager.swift */; };
 		8311B04F27D41B82008A255D /* SpotifyAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311B03927D41B82008A255D /* SpotifyAPIManager.swift */; };
 		8311B05227D41C9A008A255D /* SpotifyKitConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311B05127D41C9A008A255D /* SpotifyKitConfiguration.swift */; };
+		8311B05427D427AB008A255D /* Spotify-Kit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8311B05327D427AB008A255D /* Spotify-Kit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		8311B03827D41B82008A255D /* SpotifyAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyAuthManager.swift; sourceTree = "<group>"; };
 		8311B03927D41B82008A255D /* SpotifyAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyAPIManager.swift; sourceTree = "<group>"; };
 		8311B05127D41C9A008A255D /* SpotifyKitConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyKitConfiguration.swift; sourceTree = "<group>"; };
+		8311B05327D427AB008A255D /* Spotify-Kit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Spotify-Kit.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +117,8 @@
 		8311B00927D41B30008A255D /* SpotifyKit */ = {
 			isa = PBXGroup;
 			children = (
-				8311B02127D41B6E008A255D /* Sources */,
+				8311B05327D427AB008A255D /* Spotify-Kit.podspec */,
+				8311B02127D41B6E008A255D /* Classes */,
 				8311B00A27D41B30008A255D /* SpotifyKit.h */,
 			);
 			path = SpotifyKit;
@@ -129,13 +132,13 @@
 			path = SpotifyKitTests;
 			sourceTree = "<group>";
 		};
-		8311B02127D41B6E008A255D /* Sources */ = {
+		8311B02127D41B6E008A255D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				8311B05027D41B95008A255D /* Core */,
 				8311B02227D41B82008A255D /* Models */,
 			);
-			path = Sources;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		8311B02227D41B82008A255D /* Models */ = {
@@ -267,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8311B05427D427AB008A255D /* Spotify-Kit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
