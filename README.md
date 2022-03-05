@@ -38,7 +38,7 @@ SpotifyAuthManager.shared.configure(config)
 
 ```swift
 // Fetch a users top streamed tracks of all time
-SpotifyAPIManager..getTopContent(
+SpotifyAPIManager.shared.getTopContent(
   .tracks,
   for: .lifetime
 ) { result in
